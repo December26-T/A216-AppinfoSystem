@@ -8,7 +8,7 @@ import javax.annotation.Resource;
 import java.util.List;
 
 @Service
-public abstract class AppVersionServiceImpl implements AppVersionService {
+public class AppVersionServiceImpl implements AppVersionService {
 
     @Resource
     private AppVersionMapper appVersionMapper;

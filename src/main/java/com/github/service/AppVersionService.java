@@ -8,7 +8,4 @@ public interface AppVersionService {
     List<AppVersion> appversionadd(Integer id);
 
     AppVersion findAppVersionById(Integer vid);
-    boolean VersionAdd(AppVersion appVersion);
-
-    boolean updVersion(AppVersion appVersion);
 }
